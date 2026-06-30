@@ -1,8 +1,27 @@
+# Python
 __pycache__/
 *.pyc
-.DS_Store
+*.pyo
 .venv/
 venv/
-*.log
+env/
+*.egg-info/
+ 
+# OS / Editor
+.DS_Store
 .idea/
 .vscode/
+ 
+# Logs
+*.log
+ 
+# Flink / Kafka runtime artifacts
+flink-checkpoints/
+*.tar.gz
+data/
+ 
+# Environment variables / secrets
+.env
+*.pem
+*.key
+ 
